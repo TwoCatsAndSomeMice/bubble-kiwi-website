@@ -5,5 +5,5 @@
   li {margin:1rem 0;}
   label {display:block;}
     input {@include off_left();}
-    span {display:block; background:$colour-background-panel; border:#95989A solid 1px; padding:$padding-block;}
+    span {display:block; background:$colour-background-option; border:$colour-border-option solid 1px; padding:$padding-block;}
 }

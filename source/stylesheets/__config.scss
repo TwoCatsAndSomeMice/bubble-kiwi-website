@@ -1,8 +1,20 @@
-$colour-background-panel:#fff;
-$colour-border-panel:#ccc;
+$theme-alpha:#FD925F;
+$theme-beta:#790F6D;
+$theme-gamma:#1E4864;
+$theme-epsilon:#6CCC19;
+
+$colour-background-site:#fff;
+$colour-background-panel:$theme-alpha;
+$colour-background-option:#fff;
+$colour-border-option:#fff;
+$colour-border-panel:#fff;
+$colour-label:#4E4E4E;
+
+$colour-reveal-primary:$theme-beta;
+$colour-font-default:#3E3E3E;
 
 $padding-block:1rem;
-$panel-max-width:320px;
+$panel-max-width:240px;
 
 @mixin off_left(){
   position:absolute; left:-999em; top:-999em;

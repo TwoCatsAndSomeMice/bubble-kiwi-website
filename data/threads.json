@@ -9,9 +9,14 @@
           "label": "How old are you?",
           "options": [
             {
-              "id": "age-18-35",
-              "label": "18-35",
-              "value": "18-35"
+              "id": "age-71-plus",
+              "label": "71+",
+              "value": "71"
+            },
+            {
+              "id": "age-51-70",
+              "label": "51-70",
+              "value": "51-70"
             },
             {
               "id": "age-36-50",
@@ -19,34 +24,80 @@
               "value": "36-50"
             },
             {
-              "id": "age-51-70",
-              "label": "51-70",
-              "value": "51-70"
+              "id": "age-16-35",
+              "label": "16-35",
+              "value": "16-35"
             }
           ]
         },
         "answers": [
           {
             "id": "age-18-35",
-            "label": "So, you’re a Gen-X'er!",
+            "label": "You are part of <strong><abbr title=\"Generation-X\">Gen X</abbr></strong>",
+            "chart": {
+              "label": "like 22% of New Zealand",
+              "pct": 22
+            },
             "truth_bombs": [
               {
-                "value": "0.006%",
-                "label": "are homeless"
+                "value": "20%",
+                "label": "of you vote",
+                "footnote": "Which allows the 60% of voting Baby-boomers to select our parliament"
               },
               {
-                "value": "0.001%",
-                "label": "are currently in jail"
+                "value": "0.06%",
+                "label": "are currently in jail",
+                "footnote": "Don’t worry, those are similar numbers as those Baby-boomers."
+              },
+              {
+                "value": "0.01%",
+                "label": "of you are millionaires",
+                "footnote": "Yes. That’s 500 people the same age as you."
               }
             ],
             "notes": [
               {
-                "key": "Babyboomers think",
+                "key": "Baby-boomers think",
                 "value": "you’re lazy, entitled and addicted to Pokemon Go"
               },
               {
-                "key": "Generation-Y think",
+                "key": "Gen Y think",
                 "value": "you’re the last generation to be able to buy your own home"
+              }
+            ]
+          },
+          {
+            "id": "age-36-50",
+            "label": "You are part of <strong><abbr title=\"Generation-Y\">Gen Y</abbr></strong>",
+            "chart": {
+              "label": "like 34% of New Zealand",
+              "pct": 34
+            },
+            "truth_bombs": [
+              {
+                "value": "60%",
+                "label": "of you vote",
+                "footnote": "Which means you have a greater influence on our politics than Gen Xers."
+              },
+              {
+                "value": "0.08%",
+                "label": "are currently in jail",
+                "footnote": "That’s more than Baby-boomers and Gen Xers"
+              },
+              {
+                "value": "0.07%",
+                "label": "of you are millionaires",
+                "footnote": "That’s 7 times more than Gen Xers"
+              }
+            ],
+            "notes": [
+              {
+                "key": "Baby-boomers think",
+                "value": "your taste in music is way better than Gen Xers"
+              },
+              {
+                "key": "Gen Xers think",
+                "value": "…"
               }
             ]
           }

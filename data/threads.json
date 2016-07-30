@@ -1,6 +1,7 @@
 [
   {
     "id":"default",
+    "name": "Default",
     "pairs": [
       {
         "question": {
@@ -24,9 +25,11 @@
             }
           ]
         },
-        "answers": {
-          "age-18-35": {
-            "truth-bombs": [
+        "answers": [
+          {
+            "id": "age-18-35",
+            "label": "So, you’re a Gen-X'er!",
+            "truth_bombs": [
               {
                 "value": "0.006%",
                 "label": "are homeless"
@@ -46,14 +49,8 @@
                 "value": "You’re the last generation to be able to buy your own home"
               }
             ]
-          },
-          "age-36-50": {
-
-          },
-          "age-51-70": {
-
           }
-        }
+        ]
       }
     ]
   }

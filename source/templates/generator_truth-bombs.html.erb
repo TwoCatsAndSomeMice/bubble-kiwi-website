@@ -1,0 +1,9 @@
+<% truth_bombs = locals[:truth_bombs] %>
+<ul class="truth-bombs">
+  <% truth_bombs.each do |truth_bomb| %>
+  <li>
+    <strong><%= truth_bomb[:value] %></strong>
+    <span><%= truth_bomb[:label] %></span>
+  </li>
+  <% end %>
+</ul>

@@ -1,6 +1,30 @@
+env_name = ENV['APP_ENV'] || 'development'
+require "environments/#{env_name}"
+require_relative './lib/build_cleaner'
 ###
 # Page options, layouts, aliases and proxies
 ###
+
+
+set :site_name, 'bubble.kiwi'
+set :site_repo, 'bubble-kiwi-website'
+set :env_name, env_name
+set :font_dir, 'fonts'
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
+
+set :url_root, ApplicationConfig::BASE_URL
+
+if env_name == 'development'
+	set :homepage_path, '/'
+	set :templates_path, '/templates/'
+else
+	set :homepage_path, "/#{site_repo}/"
+	set :templates_path, "/#{site_repo}/templates/"
+end
+
+ignore '*/__config*'
 
 # Per-page layout changes:
 #
@@ -49,6 +73,11 @@ end
 
 # Build-specific configuration
 configure :build do
+
+  activate :build_cleaner
+  activate :relative_assets
+  set :relative_links, true
+
   activate :gzip do |gzip|
     gzip.exts = %w(.js .css .html .htm .svg .ico)
   end
@@ -68,4 +97,13 @@ configure :build do
     html.remove_quotes           = true
     html.remove_intertag_spaces  = true
   end
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  # Optional Settings
+  # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
+  # deploy.branch   = 'custom-branch' # default: gh-pages
+  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+  # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end

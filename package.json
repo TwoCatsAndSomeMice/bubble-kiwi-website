@@ -1,0 +1,12 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "Bubble.kiwi UI",
+  "main": "index.js",
+  "author": "Two cats and some mice",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.0"
+  }
+}

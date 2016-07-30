@@ -1,3 +1,8 @@
 @import "__config.scss";
 
-body > .container {padding:0;}
+body {font-family:$font_family;
+  > .container {padding:0;
+    abbr {border-bottom:none;}
+  }
+
+}

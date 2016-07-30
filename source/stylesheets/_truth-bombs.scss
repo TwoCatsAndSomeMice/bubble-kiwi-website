@@ -3,9 +3,11 @@
 .truth-bombs {list-style:none; margin:2rem 0 0; padding:0;
   li {color:$colour-font-default; text-align:center; padding:$padding-block; margin:1rem 0;}
     strong,
-    span {display:block;}
-    strong {font-size:3rem;}
-    span {
+    span,
+    em {display:block; margin:.75rem 0;}
+    strong {font-size:3.5rem; color:$theme-beta;}
+    span {font-size:2rem; color:#95989A;
       &:before {content:'…';}
     }
+    em {font-size:1.6rem; font-style:normal; color:#95989A;}
 }

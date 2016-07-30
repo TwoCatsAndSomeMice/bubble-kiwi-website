@@ -1,12 +1,12 @@
-$theme-alpha:#FD925F;
+$theme-alpha:#6BA78E;
 $theme-beta:#790F6D;
-$theme-gamma:#1E4864;
-$theme-epsilon:#6CCC19;
+$theme-gamma:#EF562E;
+$theme-epsilon:#FBC830;
 
 $colour-background-site:#fff;
 $colour-background-panel:$theme-alpha;
-$colour-background-option:#fff;
-$colour-border-option:#fff;
+$colour-background-option:#3B5C4E;
+$colour-background-option-active:mix(#000, #3B5C4E, 30%);
 $colour-border-panel:#fff;
 $colour-label:#4E4E4E;
 
@@ -15,6 +15,8 @@ $colour-font-default:#3E3E3E;
 
 $padding-block:1rem;
 $panel-max-width:240px;
+
+$font_family:'Montserrat', 'Open Sans', 'Droid Sans', sans-serif;
 
 @mixin off_left(){
   position:absolute;

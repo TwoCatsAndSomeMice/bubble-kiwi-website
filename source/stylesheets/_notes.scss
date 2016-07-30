@@ -1,0 +1,11 @@
+@import "__config.scss";
+
+.reveal-notes {list-style:none; margin:2rem 0 0; padding:0;
+  li {margin:1rem 0; text-align:center;}
+    strong,
+    span {display:block;}
+    strong {
+      &:after {content:'…';}
+    }
+    span {}
+}

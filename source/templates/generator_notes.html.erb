@@ -1,0 +1,9 @@
+<% notes = locals[:notes] %>
+<ul class="reveal-notes">
+  <% notes.each do |note| %>
+  <li>
+    <strong><%= note[:key] %></strong>
+    <span><%= note[:value] %></span>
+  </li>
+  <% end %>
+</ul>

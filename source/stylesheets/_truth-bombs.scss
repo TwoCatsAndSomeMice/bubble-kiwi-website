@@ -5,5 +5,7 @@
     strong,
     span {display:block;}
     strong {font-size:3rem;}
-    span {}
+    span {
+      &:before {content:'…';}
+    }
 }

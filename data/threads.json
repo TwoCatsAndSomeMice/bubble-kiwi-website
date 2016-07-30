@@ -1,0 +1,60 @@
+[
+  {
+    "id":"default",
+    "pairs": [
+      {
+        "question": {
+          "id": "how-old",
+          "label": "How old are you?",
+          "options": [
+            {
+              "id": "age-18-35",
+              "label": "18-35",
+              "value": "18-35"
+            },
+            {
+              "id": "age-36-50",
+              "label": "36-50",
+              "value": "36-50"
+            },
+            {
+              "id": "age-51-70",
+              "label": "51-70",
+              "value": "51-70"
+            }
+          ]
+        },
+        "answers": {
+          "age-18-35": {
+            "truth-bombs": [
+              {
+                "value": "0.006%",
+                "label": "are homeless"
+              },
+              {
+                "value": "0.001%",
+                "label": "are currently in jail"
+              }
+            ],
+            "notes": [
+              {
+                "key": "Babyboomers think…",
+                "value": "You’re lazy, entitled and addicted to Pokemon Go"
+              },
+              {
+                "key": "Generation-Y think…",
+                "value": "You’re the last generation to be able to buy your own home"
+              }
+            ]
+          },
+          "age-36-50": {
+
+          },
+          "age-51-70": {
+
+          }
+        }
+      }
+    ]
+  }
+]

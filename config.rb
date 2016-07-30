@@ -19,12 +19,15 @@ set :url_root, ApplicationConfig::BASE_URL
 if env_name == 'development'
 	set :homepage_path, '/'
 	set :templates_path, '/templates/'
+	set :threads_path, '/threads/'
 else
 	set :homepage_path, "/#{site_repo}/"
 	set :templates_path, "/#{site_repo}/templates/"
+	set :threads_path, "/#{site_repo}/threads/"
 end
 
 ignore '*/__config*'
+ignore '/templates/generator*'
 
 # Per-page layout changes:
 #

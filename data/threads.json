@@ -1,7 +1,7 @@
 [
   {
     "id":"default",
-    "name": "Default",
+    "label": "Default",
     "pairs": [
       {
         "question": {

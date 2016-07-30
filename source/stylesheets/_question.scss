@@ -1,0 +1,9 @@
+@import "__config.scss";
+
+.question {max-width:$panel-max-width; margin:0 auto;
+  ul {list-style:none; margin:2rem 0 0; padding:0;}
+  li {margin:1rem 0;}
+  label {display:block;}
+  input {@include off_left();}
+  span {display:block; background:$colour-background-panel; border:$colour-border-panel solid 1px; padding:$padding-block;}
+}

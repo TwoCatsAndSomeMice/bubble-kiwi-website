@@ -1,7 +1,9 @@
 @charset "UTF-8";
 @import "_bootstrap.scss";
-@import "_panel";
-@import "_question";
-@import "_reveal";
-@import "_truth-bombs";
-@import "_notes";
+@import "_header";
+@import "_contents";
+  @import "_panel";
+    @import "_question";
+    @import "_reveal";
+      @import "_truth-bombs";
+      @import "_notes";

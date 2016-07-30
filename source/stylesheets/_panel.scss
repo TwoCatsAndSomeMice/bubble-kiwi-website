@@ -1,4 +1,10 @@
 @import "__config.scss";
 
-.panel-question {background:$colour-background-panel;}
+.panel-question {background:$colour-background-panel; border-radius:0;}
 .panel-reveal {}
+
+
+@media (min-width:480px) {
+  .panel {max-width:420px; margin:2rem auto;}
+  .panel-question {border-radius:1rem;}
+}

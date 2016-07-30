@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="317" height="177" viewBox="0 0 317 177">
+<path fill="#6BA78E" d="M7.9,103.8c0,0,16-32.5,36.9-47.3c7.4-6.8,17.6-15.3,30.7-23.6c23.6-15,49.2-23,54.1-24.5 c15.1-4.7,26.3-8.1,42.1-8.3c13.8-0.2,24.6,2.2,29.6,3.5c19,4.9,33.2,13.8,42.2,20.9c19.3,16,32.5,35.1,33.6,58c0,0.2,0,0.3,0,0.4 c0.2,5.3,1,41.8-27.5,68.3c-7.6,7.1-19.2,15.8-35.1,20.9c-46.5,15-88.3-13.9-94.3-18.2c-6.5-4.3-15.6-10.7-25.9-19.3 c-13.1-11-17.2-16.5-27-22c-6.7-3.8-16.9-8.1-31.4-9.4C26.6,103.4,17.2,103.6,7.9,103.8z"/>
+<line fill="none" stroke="#EC3A7C" stroke-width="6.6387" stroke-miterlimit="10" x1="21.3" y1="109.1" x2="21.3" y2="142.3"/>
+<circle fill="none" stroke="#EC3A7C" stroke-width="7.0191" stroke-miterlimit="10" cx="21.4" cy="153.4" r="8.7"/>
+<circle fill="#FFFFFF" stroke="#EC3A7C" stroke-width="6.6387" stroke-miterlimit="10" cx="21.3" cy="91.2" r="18"/>
+<path fill="#6BA78E" d="M269.1,29.6"/>
+<circle fill="#FBC830" cx="61" cy="44.3" r="30.8"/>
+<circle fill="#DC6CAF" cx="89.5" cy="141.3" r="25.6"/>
+<circle fill="#267DDB" cx="63.9" cy="141.3" r="10.6"/>
+<circle fill="#1E8825" cx="256.8" cy="61" r="11.1"/>
+<ellipse fill="#EF562E" cx="269.8" cy="125.3" rx="47" ry="43.5"/>
+<circle fill="#432541" cx="108.7" cy="65.7" r="6.4"/>
+<text transform="matrix(0.9982 0 0 1 53.2613 103.8749)" fill="#FFFFFF" font-family="'DKLemonYellowSun'" font-size="41.4195px" letter-spacing="6">KIWIBUBBLE</text>
+</svg>

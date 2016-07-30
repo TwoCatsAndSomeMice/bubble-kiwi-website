@@ -1,0 +1,9 @@
+@import "__config";
+
+$logo_width:317px;
+$logo_height:177px;
+
+.header {
+  h1 {text-align:center; margin:3rem 0;}
+  a {display:inline-block; width:($logo_width*.75); height:($logo_height*.75); background:image-url('logo_kiwi_bubble.svg') 50% 50% no-repeat; background-size:contain; @include hide_text();}
+}

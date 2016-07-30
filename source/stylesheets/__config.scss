@@ -17,5 +17,15 @@ $padding-block:1rem;
 $panel-max-width:240px;
 
 @mixin off_left(){
-  position:absolute; left:-999em; top:-999em;
+  position:absolute;
+  left:-999em;
+  top:-999em;
+}
+
+@mixin hide_text(){
+  text-indent:-999rem;
+  display:inline-block;
+  text-align:left;
+  overflow:hidden;
+
 }

@@ -6,8 +6,8 @@
     span,
     em {display:block; margin:.75rem 0;}
     strong {font-size:3.5rem; color:$theme-beta;}
-    span {font-size:2rem; color:#95989A;
+    span {font-size:2.1rem; color:#95989A;
       &:before {content:'…';}
     }
-    em {font-size:1.6rem; font-style:normal; color:#95989A;}
+    em {font-size:1.7rem; font-style:normal; font-weight:300; color:#95989A;}
 }

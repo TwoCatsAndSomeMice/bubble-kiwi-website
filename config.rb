@@ -6,7 +6,7 @@ require_relative './lib/build_cleaner'
 ###
 
 
-set :site_name, 'bubble.kiwi'
+set :site_name, 'Kiwibubble'
 set :site_repo, 'bubble-kiwi-website'
 set :env_name, env_name
 set :font_dir, 'fonts'
@@ -16,15 +16,9 @@ set :images_dir, 'images'
 
 set :url_root, ApplicationConfig::BASE_URL
 
-if env_name == 'development'
-	set :homepage_path, '/'
-	set :templates_path, '/templates/'
-	set :threads_path, '/threads/'
-else
-	set :homepage_path, "/#{site_repo}/"
-	set :templates_path, "/#{site_repo}/templates/"
-	set :threads_path, "/#{site_repo}/threads/"
-end
+set :homepage_path,  '/'
+set :templates_path, '/templates/'
+set :threads_path,   '/threads/'
 
 ignore '*/__config*'
 ignore '/templates/generator*'

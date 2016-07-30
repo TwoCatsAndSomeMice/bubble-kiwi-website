@@ -1,7 +1,13 @@
 @import "__config.scss";
 
-.panel-question {background:$colour-background-panel; border-radius:0;}
-.panel-reveal {}
+.panel-question {background:$colour-background-panel; border-radius:0; color:#fff;
+  h3 {font-weight:400;}
+}
+.panel-reveal {display:none;
+  h3 {font-weight:400; text-transform:uppercase; color:$theme-alpha; font-size:2rem;
+    strong {color:$theme-beta; text-transform:none; font-size:5rem; font-weight:700; display:block; margin:1rem 0 0;}
+  }
+}
 
 
 @media (min-width:480px) {

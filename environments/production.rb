@@ -1,5 +1,5 @@
 module ApplicationConfig
-  BASE_URL = 'https://twocatsandsomemice.github.io/bubble-kiwi-website'
+  BASE_URL = 'http://bubble.kiwi'
 
   # module GoogleAnalytics
   #   TRACKING_KEY = 'FIXME'

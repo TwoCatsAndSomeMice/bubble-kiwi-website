@@ -1,6 +1,8 @@
 # Bubble.kiwi website
 
-A static site as part of our entry into GovHack2016
+A static site as part of our entry into GovHack2016.
+
+This website consumes data from the [TwoCatsAndSomeMice/bubble-kiwi-data](https://github.com/TwoCatsAndSomeMice/bubble-kiwi-data) repo as a Git submodule.
 
 ## Installation
 
@@ -12,6 +14,7 @@ A static site as part of our entry into GovHack2016
 ### Installation steps
 
 ```
+git clone --recursive git@github.com:TwoCatsAndSomeMice/bubble-kiwi-website.git
 bundle install
 npm install
 ```

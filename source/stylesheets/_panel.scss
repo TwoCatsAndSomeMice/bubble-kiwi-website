@@ -3,7 +3,7 @@
 .panel-question {background:$colour-background-panel; border-radius:0; color:#fff;
   h3 {font-weight:300; text-shadow:0 2px 7px rgba(0,0,0,.16);}
 }
-.panel-reveal {display:none; background:#fff; position:relative; z-index:2;
+.panel-reveal {display:none; background:#fff; position:relative; z-index:2;  box-shadow:none !important;
   h3 {font-weight:300; text-transform:uppercase; color:$theme-alpha; font-size:2rem;
     strong {color:$theme-beta; text-transform:none; font-size:5rem; font-weight:700; display:block; margin:1rem 0 0;}
   }

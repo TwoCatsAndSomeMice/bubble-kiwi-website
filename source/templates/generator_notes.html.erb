@@ -1,4 +1,6 @@
 <% notes = locals[:notes] %>
+<% if notes.count > 0 %>
+<hr>
 <ul class="reveal-notes">
   <% notes.each do |note| %>
   <li>
@@ -7,3 +9,4 @@
   </li>
   <% end %>
 </ul>
+<% end %>

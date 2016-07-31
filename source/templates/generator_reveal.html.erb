@@ -5,7 +5,7 @@
     <div class="panel-body text-center">
       <h3><%= answer[:label] %></h3>
       <p class="image_container">
-        <img src="//placehold.it/240x240" alt="">
+        <img src="<%= image_path 'chart.png' %>" alt="">
       </p>
       <%= partial 'templates/generator_truth_bombs', locals: {truth_bombs: answer[:truth_bombs]} %>
       <%= partial 'templates/generator_notes', locals: {notes: answer[:notes]} %>

@@ -16,22 +16,21 @@ $('.panel-question').each(function(_, question) {
     // make the whole list item being clickable
     var btn = $(answer).parent();
     btn.click(function() {
-      // show/hide all the answers
+
+      // hide all the answers
       $.each(answerDivs, function(_, selector) {
-        var answer = $(selector);
-
-        if (selector === divSelector) {
-          answer.show();
-
-          // smooth scrolling to the answer
-          $('html, body').stop().animate({
-            scrollTop: answer.offset().top
-          }, 500);
-
-        } else {
-          answer.hide();
-        }
+        $(selector).hide();
       });
+
+      // reveal the answer
+      var answer = $(divSelector);
+      answer.show();
+
+      // smooth scrolling to the answer
+      $('html,body').animate({
+        scrollTop: answer.offset().top
+      }, 500);
+
     });
 
   });

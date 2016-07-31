@@ -3,7 +3,7 @@
   <% pairs.each do |pair| %>
   <div class="thread-pair">
     <%= partial 'templates/generator_question', locals: {question: pair[:question]} %>
-    <%= partial 'templates/generator_reveal', locals: {answers: pair[:answers]} %>
+    <%= partial 'templates/generator_reveal', locals: {answers: pair[:answers], charts: pair[:charts]} %>
   </div>
   <% end %>
 </div>

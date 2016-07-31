@@ -1,11 +1,12 @@
 <% answers = locals[:answers] %>
+<% charts = locals[:charts] %>
 <% answers.each do |answer| %>
 <div id="answer_<%= answer[:id] %>" class="panel panel-reveal">
   <div class="panel-body text-center">
     <h3><%= answer[:label] %></h3>
-    <p class="image_container">
-      <img src="//placehold.it/240x240" alt="">
-    </p>
+    <div id="chart_<%= answer[:id] %>" class="image_container">
+		<div class="pie" _primary="<%= answer[:id] %>" ><%= charts.to_json %></div>
+    </div>
     <%= partial 'templates/generator_truth_bombs', locals: {truth_bombs: answer[:truth_bombs]} %>
     <%= partial 'templates/generator_notes', locals: {notes: answer[:notes]} %>
   </div>

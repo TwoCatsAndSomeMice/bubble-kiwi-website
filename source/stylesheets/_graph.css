@@ -1,0 +1,10 @@
+circle {
+  stroke: #655;
+  stroke-width: 100;
+}
+
+svg {
+  transform: rotate(-90deg);
+  background: #267ddb;
+  border-radius: 50%;
+}

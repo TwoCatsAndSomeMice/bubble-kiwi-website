@@ -30,14 +30,21 @@
             }
           ]
         },
+        "charts": {
+            "age-16-35": {
+              "label": "like 22% of New Zealand",
+              "pct": 22
+            },
+            "age-36-50": {
+              "label": "like 34% of New Zealand",
+              "pct": 34
+            }
+        },
         "answers": [
           {
             "id": "age-16-35",
             "label": "You are part of… <strong><abbr title=\"Generation-X\">Gen X</abbr></strong>",
-            "chart": {
-              "label": "like 22% of New Zealand",
-              "pct": 22
-            },
+            
             "truth_bombs": [
               {
                 "value": "20%",
@@ -69,10 +76,7 @@
           {
             "id": "age-36-50",
             "label": "You are part of… <strong><abbr title=\"Generation-Y\">Gen Y</abbr></strong>",
-            "chart": {
-              "label": "like 34% of New Zealand",
-              "pct": 34
-            },
+            
             "truth_bombs": [
               {
                 "value": "60%",

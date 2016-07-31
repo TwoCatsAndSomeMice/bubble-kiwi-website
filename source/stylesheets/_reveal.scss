@@ -1,5 +1,9 @@
 @import "__config";
 
-.answer-placeholder {min-height:500px; position:relative; max-width:400px; margin:0 auto; background:#f5f5f5; border-radius:1rem;
+.answer-placeholder {min-height:500px; position:relative; max-width:400px; margin:0 2rem; background:#f5f5f5; border-radius:1rem;
   &:before {content:"What’s your bubble?"; display:block; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); color:#ccc; z-index:1; font-size:4rem; text-align:center;}
+}
+
+@media (min-width:400px) {
+  .answer-placeholder {margin:0 auto;}
 }

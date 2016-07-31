@@ -19,6 +19,19 @@ bundle install
 npm install
 ```
 
+## Updating the data
+
+```
+git checkout master
+cd data
+git checkout master
+git pull origin master
+cd ..
+git add .
+git commit -m "Updated the data"
+git push origin master
+```
+
 ## Development
 
 To start a local server (once the dependencies are installed) you'll need to:

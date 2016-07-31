@@ -2,7 +2,7 @@
 title: Explore where you fit?
 ---
 <ul>
-  <% data.threads.each do |thread| %>
+  <% data.thread.each do |thread| %>
   <li><a href="<%= config[:threads_path] + thread[:id] %>"><%= thread[:label] %></li>
   <% end %>
 </ul>

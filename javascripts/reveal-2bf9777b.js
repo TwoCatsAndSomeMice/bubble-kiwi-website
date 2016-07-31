@@ -1,0 +1,1 @@
+$(".panel-question").each(function(n,a){var e=a.id,i=[];$(a).find("input").each(function(n,a){var c="#"+a.id.replace(e,"answer");i.push(c);var o=$(a).parent();o.click(function(){$.each(i,function(n,a){$(a).hide()});var n=$(c);n.show(),$("html,body").animate({scrollTop:n.offset().top},500)})})});

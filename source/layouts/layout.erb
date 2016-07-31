@@ -3,11 +3,27 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title><%= current_page.data.title || "Bubble.kiwi" %></title>
+    <title><%= current_page.data.title || site_name %></title>
+    <meta property="og:site_name" content="<%= site_name %>">
+    <meta property="og:title" content="<%= current_page.data.title || site_name %>">
+    <meta property="og:image" content="<%= url_root %>/opengraph.png">
+    <meta property="og:url" content="<%= url_root %><%= current_page.url %>">
+    <meta property="og:type" content="website">
+    <meta property="og:description" name="description" content="We surround ourselves with people like us and click on the content we agree with. We filter out facts and people that don’t fit with the way we see our world. We create our own bubbles. But bubble.kiwi is here to pop these bubbles, try our click-bait and open your eyes!">
     <%= stylesheet_link_tag :site %>
   </head>
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div class="container">
+      <header class="header">
+        <h1><a href="<%= homepage_path %>"><%= site_name %></a></h1>
+      </header>
+      <article>
+        <%= yield %>
+      </article>
+      <footer>
+
+      </footer>
+    </div>
     <%= javascript_include_tag :all %>
   </body>
 </html>

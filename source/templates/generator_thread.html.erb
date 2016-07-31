@@ -1,0 +1,9 @@
+<% pairs = locals[:pairs] %>
+<div class="thread">
+  <% pairs.each do |pair| %>
+  <div class="thread-pair">
+    <%= partial 'templates/generator_question', locals: {question: pair[:question]} %>
+    <%= partial 'templates/generator_reveal', locals: {answers: pair[:answers]} %>
+  </div>
+  <% end %>
+</div>

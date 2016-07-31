@@ -1,0 +1,17 @@
+@import "__config.scss";
+
+.reveal-notes {list-style:none; margin:4rem 0 0; padding:0;
+  li {margin:2rem 0; text-align:center;}
+    strong,
+    span {display:block;}
+    strong {font-size:2.7rem; font-weight:400;
+      &:after {content:'…';}
+    }
+    span {color:#ABADAF; font-size:2.3rem; font-weight:300;}
+  li:nth-of-type(1) {
+    strong {color:$theme-epsilon;}
+  }
+  li:nth-of-type(2) {
+    strong {color:$theme-gamma;}
+  }
+}

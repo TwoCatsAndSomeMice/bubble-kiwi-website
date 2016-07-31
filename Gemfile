@@ -11,7 +11,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem 'middleman', '~> 3.4.1'
 gem 'middleman-livereload'
-gem 'middleman-deploy'
+gem 'middleman-deploy', '1.0.0'
 gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
 gem 'middleman-sprockets'

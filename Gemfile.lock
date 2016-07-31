@@ -151,7 +151,7 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 3.4.1)
   middleman-autoprefixer
-  middleman-deploy
+  middleman-deploy (= 1.0.0)
   middleman-livereload
   middleman-minify-html
   middleman-sprockets

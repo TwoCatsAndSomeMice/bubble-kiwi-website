@@ -1,0 +1,13 @@
+<% question = locals[:question] %>
+<div id="<%= question[:id] %>" class="panel panel-question">
+  <div class="panel-body text-center">
+    <div class="question question-single-choice">
+      <h3><%= question[:label] %></h3>
+      <ul>
+        <% question[:options].each do |option| %>
+        <li><label><input type="radio" name="<%= question[:id] %>" value="<%= option[:value] %>" id="<%= question[:id] + '_' + option[:id] %>"><span><%= option[:label] %></span></label></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

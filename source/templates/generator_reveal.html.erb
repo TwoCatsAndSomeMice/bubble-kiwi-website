@@ -1,14 +1,16 @@
 <% answers = locals[:answers] %>
-<% answers.each do |answer| %>
-<div id="answer_<%= answer[:id] %>" class="panel panel-reveal">
-  <div class="panel-body text-center">
-    <h3><%= answer[:label] %></h3>
-    <p class="image_container">
-      <img src="//placehold.it/240x240" alt="">
-    </p>
-    <%= partial 'templates/generator_truth_bombs', locals: {truth_bombs: answer[:truth_bombs]} %>
-    <hr>
-    <%= partial 'templates/generator_notes', locals: {notes: answer[:notes]} %>
+<div class="answer-placeholder">
+  <% answers.each do |answer| %>
+  <div id="answer_<%= answer[:id] %>" class="panel panel-reveal">
+    <div class="panel-body text-center">
+      <h3><%= answer[:label] %></h3>
+      <p class="image_container">
+        <img src="//placehold.it/240x240" alt="">
+      </p>
+      <%= partial 'templates/generator_truth_bombs', locals: {truth_bombs: answer[:truth_bombs]} %>
+      <hr>
+      <%= partial 'templates/generator_notes', locals: {notes: answer[:notes]} %>
+    </div>
   </div>
+  <% end %>
 </div>
-<% end %>

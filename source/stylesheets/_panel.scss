@@ -1,5 +1,7 @@
 @import "__config.scss";
 
+.panel {padding:1rem;}
+
 .panel-question {background:$colour-background-panel; border-radius:0; color:#fff;
   h3 {font-weight:300; text-shadow:0 2px 7px rgba(0,0,0,.16);}
 }

@@ -16,7 +16,3 @@ gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
 gem 'middleman-sprockets'
 gem 'uglifier'
-
-# To fix potential vulnerability: https://nvd.nist.gov/vuln/detail/CVE-2018-16471
-# Later it might be better to run bundle again and let the dependencies sort themselves out
-gem 'rack', '>= 1.6.11'
